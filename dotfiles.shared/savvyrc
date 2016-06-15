@@ -8,4 +8,5 @@ alias dev='workon dev'
 alias devbin='dev;cd $VIRTUAL_ENV/bin'
 alias prod='workon prod'
 alias prodbin='prod;cd $VIRTUAL_ENV/bin'
+alias o='cd /oscar'
 f;workon dev

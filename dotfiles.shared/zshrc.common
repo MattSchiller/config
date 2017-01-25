@@ -9,9 +9,8 @@
 SCRIPT_PATHS=$(find ~/repos/scripts/ -type d | grep -v "\.git" | sed "s,/$,," | tr '\n' ':')
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/scripts:$SCRIPT_PATHS:/usr/texbin"
 export PATH="$PATH:$HOME/repos/savvy/designer/utility"
+export PATH="$PATH:./node_modules/.bin"
 export PYTHONPATH="$PYTHONPATH:$HOME/repos/scripts/python:$HOME/repos/scripts/django"
-#export MANPATH="/usr/local/man:$MANPATH"
-#export CDPATH=".:/Users/zfleischman/repos/farm2"
 
 
 ####################
@@ -44,8 +43,8 @@ setopt no_histverify
 ###############
 
 # virtualenvwrapper
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+# export WORKON_HOME=~/.virtualenvs
+# source /usr/local/bin/virtualenvwrapper.sh
 
 # Tmux window naming
 DISABLE_AUTO_TITLE=true

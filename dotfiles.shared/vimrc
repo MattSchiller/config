@@ -19,7 +19,7 @@ au BufReadPost .vimplugins set syntax=sh
 "---------------------------
 " Color Scheme
 "---------------------------
-colorscheme wombat256mod
+" colorscheme wombat256mod
 
 "---------------------------
 " Python specific stuff

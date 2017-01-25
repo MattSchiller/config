@@ -22,7 +22,7 @@ JUNKFOOD_LOCA_="%{$fg[cyan]%}\$(mypath)%{$reset_color%} \$(git_prompt_info)\${NE
 # For the git prompt, use a white @ and blue text for the branch name
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[075]%}(%{$fg_bold[magenta]%}"
 
-# Close it all off by resetting the color and styles.
+# Close it all off by reseting the color and styles.
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
 # Do nothing if the branch is clean (no changes).

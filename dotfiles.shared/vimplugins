@@ -56,7 +56,7 @@ Plugin 'ervandew/supertab'
 " Plugin 'tmhedberg/SimpylFold'
 
 " Color Scheme
-Plugin 'michalbachowski/vim-wombat256mod'
+" Plugin 'michalbachowski/vim-wombat256mod'
 
 " Nerd Commenter
 Plugin 'scrooloose/nerdcommenter'
